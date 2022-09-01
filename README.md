@@ -1,6 +1,7 @@
 # Cards
 
-**TODO: Add description**
+udemy elixir and pheonix lecture
+
 
 ## Installation
 
