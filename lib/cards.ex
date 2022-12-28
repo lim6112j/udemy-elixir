@@ -28,7 +28,15 @@ defmodule Cards do
   def shuffle(deck) do
     Enum.shuffle(deck)
   end
+  @doc """
+  divides deck into a hand and the remainder
 
+  ## Examples
+    iex> deck = Cards.create_deck
+    iex> {hand, deck} = Cards.deal(deck, 1)
+    iex> hand
+    ["Ace of Spades"]
+  """
   def deal(deck, hand_size) do
     Enum.split(deck, hand_size)
   end
